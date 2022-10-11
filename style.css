@@ -1,0 +1,459 @@
+body html{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* navbar css  */
+
+.nav-img{
+    width: 100%;
+}
+.header-img {
+    position: relative;
+   width: 100%;
+}
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #CCCCCC;
+}
+.nav-list {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.nav-list li a:hover {
+    color: #C59D5F;
+}
+.icons {
+    margin-top: 35px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.icons a {
+    text-decoration: none;
+    color: #CCCCCC;
+    margin-left: 15px;
+    font-size: 1.3rem;
+}
+.icons a:hover {
+    color: #C59D5F;
+}
+
+.logo {
+
+    font-family: 'Passions Conflict', cursive;
+    color: #CCCCCC;
+    margin-top: 0;
+    margin-left: 70px;
+    font-size: 4rem;
+
+}
+
+.nav-list a {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    color: #CCCCCC;
+    font-size: 1rem;
+
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.reservation {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.welcome {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: #C59D5F;
+    font-size: 6rem;
+    margin-bottom: 0;
+    line-height: 0.5;
+}
+
+.name-of-rest {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #CCCCCC;
+    font-size: 2.5rem;
+    margin-top: 0;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+
+}
+
+.line {
+    width: 25%;
+    margin-top: 0;
+    border-bottom: 0;
+}
+
+.reserve-text {
+    font-family: sans-serif;
+    color: #CCCCCC;
+    letter-spacing: 0.333em;
+}
+
+.reservation button {
+    font-family: 'Cabin', sans-serif;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    letter-spacing: 0.2em;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.reservation button:hover {
+    background-color: #C59D5F;
+}
+
+/*media query for mobile size*/
+@media (max-width: 767px) {
+    .nav-img {
+        width: 100%;
+        height: 100%;
+    }
+    .nav-list {
+        padding: 0px;
+    }
+
+    .nav-list a {
+        font-size: 0.6rem;
+        margin-left: 10px;
+    }
+
+    .logo {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 2rem;
+    }
+
+    .icons {
+        margin-top: 20px;
+    }
+
+    .icons a {
+        text-decoration: none;
+        color: #CCCCCC;
+        margin-left: 5px;
+        font-size: 0.7rem;
+    }
+
+    .reservation {
+        top: 20%;
+    }
+
+    .welcome {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        line-height: 0;
+    }
+
+    .name-of-rest {
+        font-size: 1rem;
+        letter-spacing: 3px;
+
+    }
+
+    .reserve-text {
+        font-size: 0.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .reservation button {
+        font-size: 0.5rem;
+        letter-spacing: 0.2em;
+    }
+}
+/*for tablet size */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav-img {
+        width: 100%;
+        height: 100%;
+    }
+    .nav-list {
+        padding: 7px;     
+    }
+
+    .nav-list a {
+        font-size: 0.9rem;
+        margin-left: 15px;
+        
+    }
+
+    .logo {
+        margin-top: 0;
+        margin-left: 20px;
+        font-size: 3rem;
+    }
+
+    .icons {
+        margin-top: 25px;
+    }
+
+    .icons a {
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    .welcome {
+        font-size: 4rem;
+        margin-bottom: 10px;
+        line-height: 0;
+    }
+
+    .name-of-rest {
+        font-size: 1.7rem;
+        letter-spacing: 3px;
+
+    }
+
+    .reserve-text {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        line-height: 0;
+    }
+
+    .reservation button {
+        font-size: 0.8rem;
+        letter-spacing: 0.2em;
+    }
+
+}
+
+/* end of navbar css */
+
+
+/*  main css   */
+.section{
+    display: flex;
+    /* height: 40%; */
+    margin: 1%;
+    align-items: center;
+}
+
+.main-section{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-section > p{
+    font-size: 27px;
+    width: 95%;
+    
+}
+.image-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: 50%;
+}
+.image-1 > img{
+    margin-top: 2%;
+    width: 75%;
+}
+.header{
+    margin: 0;
+    line-height:35px;
+}
+
+.head-1{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 80px;
+    font-weight: 100;
+    color: rgb(220, 187, 0);
+}
+.head-2{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+.article{
+    text-align: center;
+  
+}
+.album-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.album-bottom > img{
+    width: 24%;
+}
+
+
+/* media - responsiv */
+
+/* for max-width=900 */
+@media (max-width: 900px) {
+  
+    .section{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .main-section{
+        width: 98%;
+        height: 100%;
+        text-align: center;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .main-section > p{
+            font-size: 20px;
+            line-height: normal;
+        }
+
+        .head-1{
+            font-size: 40px;
+        }
+        .head-2{
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+        .header{
+            line-height:20px;
+        }
+        .image-1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1%;
+            width: 100%;
+        }
+
+        .image-1 > img{
+            width: 48%;
+        }
+  }
+  
+
+
+
+
+
+  
+
+
+
+/* end of main css */
+
+/*  footer css   */
+.footer-container{
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+   border-radius: 1px;
+
+}
+svg{
+   width: 25px;
+   height: 25px;
+    padding-bottom: 25px;
+    padding-left:15px;
+    padding-right: 15px; 
+}
+.footer-header{
+    padding-top: 35px;
+    font-family: "Lora", serif;
+    font-size:18px;
+    height: 50px;
+}
+.media-section{
+    height: 150px;
+}
+.contact-section{
+    background-color:#252525 ;
+ height: 180px;
+ border-radius: 1px;
+
+}
+.contact-section > p{
+    padding-top: 30px;
+}
+table.contact-table{
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;
+}
+a{
+    text-decoration: none; 
+    color:lightgray ;
+}
+@media only screen and (max-width: 600px) {
+    
+    .footer-container{ 
+        max-width: 600px;
+   
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .media-section{
+        max-height: 400px;
+        max-width:600px ;
+        padding-bottom: 100px;
+    }
+    svg{
+        padding-top: 25px;
+    }
+    .contact-section{
+        max-height:350px ;
+        max-width:  600px;
+        padding-bottom: 50px;
+    }
+  }
+  @media only screen and (max-width: 250px) 
+  {
+    .footer-container{ 
+        max-width: 350px;
+   
+     max-height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .media-section{
+        max-height: 500px;
+        max-width:175px ;
+        padding-bottom: 80px;
+    }
+    svg{
+        padding-top: 25px;
+    }
+    .contact-section{
+        max-height:500px ;
+        max-width:  175px;
+        padding-bottom: 25px;
+    }
+}
+  /* end of footer css */
